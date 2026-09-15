@@ -24,7 +24,6 @@ class Jar {
     int maxItems = maxNumItems;
     int randomNumber = random.nextInt(maxItems) + 1;
     currentNumItems = randomNumber;
-    //System.out.printf("The random number is %d.%n", randomNumber);
   }
   
   //getter method for the current number of items
